@@ -1,5 +1,5 @@
-name: configure SNMP
-cisco.ios.ios_snmp_server:
+- name: configure 
+  cisco.ios.ios_snmp_server:
   state: merged
   config:
     location: "Datacenter-1"
