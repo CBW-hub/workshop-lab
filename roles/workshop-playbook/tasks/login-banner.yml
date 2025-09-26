@@ -1,5 +1,5 @@
 ---
-- name: Set login banner
+- name: set banner
   cisco.ios.ios_banner:
   banner: login
   multiline_delimiiter: "&"
