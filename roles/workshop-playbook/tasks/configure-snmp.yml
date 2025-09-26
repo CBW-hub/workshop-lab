@@ -1,4 +1,4 @@
-name: Configure SNMP
+name: configure SNMP
 cisco.ios.ios_snmp_server:
   state: merged
   config:
