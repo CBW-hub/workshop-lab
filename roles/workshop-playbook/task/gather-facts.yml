@@ -1,13 +1,13 @@
 ---
 - name: Display router hostname, IOS, Model
   cisco.ios.ios_facts:
-  gather_subset: all
+   gather_subset: all
 
 - name: Show
   debug: 
-  msg: 
-    - "Hostname: {{ ansible_net_hostname }}"
-    - "Model: {{ ansible_net_model }}"
-    - "IOS: {{ ansible_net_version }}"
+   msg: 
+     - "Hostname: {{ ansible_net_hostname }}"
+     - "Model: {{ ansible_net_model }}"
+     - "IOS: {{ ansible_net_version }}"
     
   
