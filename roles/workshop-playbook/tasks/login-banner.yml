@@ -1,0 +1,14 @@
+---
+- name: Set login banner
+  cisco.ios.ios_banner:
+  banner: login
+  multiline_delimiiter: "&"
+  text: "
+    ####################################
+    
+    # Successfully entered this system #
+
+    ####################################  
+    "
+
+  state: present
